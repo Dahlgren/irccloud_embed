@@ -9,6 +9,7 @@ var IRCCloudEmbed = function() {
         message.addClass("message");
         var image = $("<img>");
         image.attr("src", href);
+        image.attr("class", "embedded-image");
         message.append(image);
         message_row.append(message);
 

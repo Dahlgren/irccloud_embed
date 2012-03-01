@@ -4,6 +4,7 @@
   "description": "Embed IRCCloud image links as images.",
   "content_scripts": [{
       "all_frames": true,
+	  "css": ["embed.css"],
       "js": ["jquery-1.7.1.min.js", "embed.js"],
       "matches": ["http://irccloud.com/*", "https://irccloud.com/*"]
     }],
